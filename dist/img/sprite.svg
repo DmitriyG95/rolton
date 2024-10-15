@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+	<symbol id='arrow' viewBox="0 0 49 82" fill="none">
+		<path d="M5 5L41 41L5 77" stroke="currentColor" stroke-width="10" stroke-linecap="round"/>
+	</symbol>
+</svg>

@@ -1,0 +1,63 @@
+//===================================================
+.openShow {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 15;
+  background: rgba(0, 0, 0, 0.38);
+  transition: all 2s ease 0s;
+}
+
+//====================================================
+.dotts-default {
+  display: flex;
+  justify-content: center;
+  position: static;
+  .swiper-pagination-bullet {
+    // width: 6px;
+    // height: 6px;
+    // margin: 0px 4px;
+    // background: #cbcfd3;
+    // opacity: 0.5;
+
+    // &-active {
+    //     opacity: 1;
+    //     background: #4092f1;
+    // }
+  }
+}
+
+.yellow {
+  color: rgba(251, 217, 39, 1) !important;
+}
+
+.red {
+  color: rgba(223, 35, 29, 1) !important;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+  @include lgFix {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  @include sm {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+
+.bg-yellow {
+  background-color: rgba(251, 217, 39, 1);
+}
+
+.bg-lemon {
+  background-color: rgba(255, 251, 222, 1);
+}
